@@ -1,5 +1,5 @@
-name: ³Â¿¡¸¦			ËêÔÂ±Ê¼Ç
-markdown: redcarpet
+name:³Â¿¡¸¦			ËêÔÂ±Ê¼Ç
+markdown: RDiscount
 pygments: true
 url: http://vinitkumar.me/white-paper
 paginate: 8
