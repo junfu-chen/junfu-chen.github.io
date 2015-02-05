@@ -1,10 +1,10 @@
-name:陈俊甫			岁月笔记
+name:junfu.chen
 markdown: rdiscount
 pygments: true
 url: http://vinitkumar.me/white-paper
 paginate: 8
 description:junfu's blog
-intro: 分享生活，留住感动。
+intro: welcome 
 logo:             logo.png
 disqus_shortname:
 # url: http://gotchacode.com
