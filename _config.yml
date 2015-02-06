@@ -1,6 +1,17 @@
+highlighter: pygments
+lsi: false
+permalink: /:year/:month/:day/:title.html
+encoding: UTF-8
+# paginate: 50
+markdown: rdiscount
+# enables SmartyPants (nice curly quotation marks, em/en dashes, elipses, etc):
+rdiscount:
+  extensions: [smart]
+# Since GH pages override this to "true", we test this value to see if we are running locally
+safe: false
+include: [".well-known"]
 username: minixalpha
 baseurl: /StrayBirds
 markdown: redcarpet
 safe: false
 pygments: true
-title: 飞鸟集
