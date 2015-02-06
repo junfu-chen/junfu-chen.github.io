@@ -4,11 +4,11 @@ fb_comments: 3
 title: Projects
 ---
 
-- [Gotalk](http://rsms.me/2015/01/21/gotalk.html) — makes it easy for programs to talk with one another over the internet.
+- [Gotalk](http://jufu.tk/2015/01/21/gotalk.html) — makes it easy for programs to talk with one another over the internet.
 - [Sol](/2012/10/14/sol-a-sunny-little-virtual-machine) — educational virtual machine implementation.  ([GH](https://github.com/rsms/sol))
 - [Hue](/2012/05/14/hue) — a functional programming language. ([GH](https://github.com/rsms/hue))
-- [PeerTalk](http://rsms.me/peertalk/) — a small iOS and OS X Cocoa library for communicating over USB and TCP.
-- [UILayer](http://rsms.me/uilayer/) — an API on top of the WebKit DOM for working with the concept of layers. High performance UI rendering and animation.
+- [PeerTalk](http://jufu.tk/peertalk/) — a small iOS and OS X Cocoa library for communicating over USB and TCP.
+- [UILayer](http://jufu.tk/uilayer/) — an API on top of the WebKit DOM for working with the concept of layers. High performance UI rendering and animation.
 - [Move](http://movelang.org/) — a simple programming language intended for the young generation
 - [Fnews](/projects/fnews/) — dust off your iPad and use it as a pretty Facebook news feed "photo frame"
 - [Kod](http://github.com/rsms/kod) — programmers' editor for OS X

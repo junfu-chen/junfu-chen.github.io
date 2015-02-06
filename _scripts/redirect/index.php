@@ -964,5 +964,5 @@ if (isset($gitblog_urls[$reqpath])) {
 }
 
 header('HTTP/1.1 301 Moved Permanently');
-header('Location: http://rsms.me/'.$dstpath);
+header('Location: http://jufu.tk/'.$dstpath);
 ?>

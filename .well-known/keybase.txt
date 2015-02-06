@@ -4,7 +4,7 @@ https://keybase.io/rsms
 
 I hereby claim:
 
-  * I am an admin of http://rsms.me
+  * I am an admin of http://jufu.tk
   * I am rsms (https://keybase.io/rsms) on keybase.
   * I have a public key with fingerprint 4128 0744 D846 6B9C E653  66A6 2FDF 7408 FB7B 27B6
 
@@ -20,7 +20,7 @@ To claim this, I am signing this object:
             "username": "rsms"
         },
         "service": {
-            "hostname": "rsms.me",
+            "hostname": "jufu.tk",
             "protocol": "http:"
         },
         "type": "web_service_binding",
