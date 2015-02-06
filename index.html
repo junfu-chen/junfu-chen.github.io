@@ -20,7 +20,7 @@ layout: default
         {% if post.description %}
         <span class="body">{{ post.description | markdownify }}</span>
         {% else %}
-        <span class="body">{{ post.excerpt | markdownify }}</span>
+        <span class="body">{{ post.excerpt  }}</span>
         {% endif %}
       {% endif %}<!-- post.photo_url -->
       </div>
