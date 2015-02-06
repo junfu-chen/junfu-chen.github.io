@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html  >
+<html  prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8">
     <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}junfu chen</title>
