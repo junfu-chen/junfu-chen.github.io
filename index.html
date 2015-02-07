@@ -20,7 +20,7 @@ layout: default
         {% if post.description %}
         <span class="body">{{ post.description | markdownify }}</span>
         {% else %}
-        <span class="body">{{ post.excerpt  }}</span>
+        <span class="body">{{ post.excerpt | strip_html | strip_newlines | truncate:170 }}</span>
         {% endif %}
       {% endif %}<!-- post.photo_url -->
       </div>
