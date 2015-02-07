@@ -125,8 +125,8 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 
 li a:hover /*鼠标经过时*/ 
 { 
-  color:white;
-  background:#444;
+  color:#444;
+  background:white;
   text-decoration:none;
-  font: 14px 'Poly', georgia, serif;
+  font-size:28px;
 } 
