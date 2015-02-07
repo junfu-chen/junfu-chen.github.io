@@ -123,7 +123,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
   color: #aaa;
 }
 
-h1 ul li a:hover /*鼠标经过时*/ 
+li a:hover /*鼠标经过时*/ 
 { 
   color:white;
   background:#444;
