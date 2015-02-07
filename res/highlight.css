@@ -128,4 +128,5 @@ li a:hover /*鼠标经过时*/
   color:white;
   background:#444;
   text-decoration:none;
+  font: 14px 'Poly', georgia, serif;
 } 
