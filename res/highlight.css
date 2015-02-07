@@ -123,8 +123,3 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
   color: #aaa;
 }
 
-li a:hover /*鼠标经过时*/ 
-{ 
-background-color:#990020; /* 改变背景色*/ 
-color:#ffff00; /* 改变文字颜色*/ 
-} 
