@@ -15,7 +15,7 @@ layout: default
       {% else %}
         <!-- <div class="title">{{ post.title }}</div> -->
         <info datetime="{{ page.date | date: "%Y-%m-%d" }}">
-          {{ post.date | date: "%b %Y" }}
+          {{ post.date | date: "%Y-%m-%d" }}
         </info>
         {% if post.description %}
         <span class="body">{{ post.description | markdownify }}</span>
@@ -27,7 +27,7 @@ layout: default
     </a>{% endfor %}
     <div class="breaker"></div>
     <div class="end">
-      <a href="/archive/">More...</a>
+      <a href="/archive/">更多...</a>
     </div>
   </div>
 </div>
