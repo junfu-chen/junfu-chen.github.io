@@ -4,7 +4,7 @@ fb_comments: 3
 title: About
 ---
 
-<img src="/res/IMG_20150208_220224.jpg" width="256" height="170" align="right">
+<img src="/res/IMG_20150208_220224.jpg" width="256" height="300" align="right">
 
 我的名字叫陈俊甫，这是我首次建立的博客，以后会存放一些自己工作(IT)上的经验与大家分享。
 
