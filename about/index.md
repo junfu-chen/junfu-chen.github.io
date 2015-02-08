@@ -9,7 +9,7 @@ title: About
 我的名字叫陈俊甫，这是我首次建立的博客，以后会存放一些自己工作(IT)上的经验与大家分享。
 
 
-I work for & 鈾� [Daphne](http://www.daphne.com.cn//)
+我现在工作 于 [Daphne](http://www.daphne.com.cn//)
 
 
 
