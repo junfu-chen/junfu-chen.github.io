@@ -18,4 +18,4 @@ title: About
 
 
 <br>
-### [<img src="/res/twitter.png" width="29" height="20" style="display:inline-block;vertical-align:middle"> 805000911@qq.com]
+### [<img src="/res/email.png" width="29" height="20" style="display:inline-block;vertical-align:middle"> 805000911@qq.com]
