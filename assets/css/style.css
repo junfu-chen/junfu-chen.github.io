@@ -101,24 +101,24 @@ a {
     #tags {
       display: none; } }
 
-#avatar {
+#ref {
   width: 100px;
   height: 100px;
   margin: 55px auto 35px;
-  background: url(/assets/img/avatar.png);
+  background: url(/assets/img/ref.png);
   border-radius: 50%;
   box-shadow: 0 0 0px 4px white, 0 0 4px 4px #eee;
   overflow: hidden;
   display: block; }
-  #avatar:hover {
+  #ref:hover {
     -webkit-animation: spin .35s linear infinite;
     -moz-animation: spin .35s linear infinite;
     -ms-animation: spin .35s linear infinite;
     -o-animation: spin .35s linear infinite;
     animation: spin .35s linear infinite; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    #avatar {
-      background: url(/assets/img/avatar@2X.png);
+    #ref {
+      background: url(/assets/img/ref@2X.png);
       -webkit-background-size: 100px 100px;
       -moz-background-size: 100px 100px;
       background-size: 100px 100px; } }
@@ -235,16 +235,16 @@ a {
       display: -webkit-flex;
       display: flex; } }
 
-#mobile-avatar {
+#mobile-ref {
   width: 50px;
   height: 50px;
-  background: url(/assets/img/avatar.png);
+  background: url(/assets/img/ref.png);
   -webkit-background-size: 50px 50px;
   -moz-background-size: 50px 50px;
   background-size: 50px 50px;
   display: none; }
   @media screen and (max-width: 585px) {
-    #mobile-avatar {
+    #mobile-ref {
       display: block;
       float: left; } }
 

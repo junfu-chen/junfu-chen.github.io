@@ -55,12 +55,12 @@ $('#js-fullscreen').on('click', function() {
   }
 });
 
-$('#mobile-avatar').on('click', function(){
+$('#mobile-ref').on('click', function(){
   $('#sidebar, #pjax, #icon-arrow').addClass('fullscreen');
 });
 
 // Pjax
-$(document).pjax('#avatar, #mobile-avatar, .pl__all', '#pjax', { fragment: '#pjax', timeout: 10000 });
+$(document).pjax('#ref, #mobile-ref, .pl__all', '#pjax', { fragment: '#pjax', timeout: 10000 });
 $(document).on({
   'pjax:click': function() {
     content.removeClass('fadeIn').addClass('fadeOut');
