@@ -78,9 +78,9 @@
     <div id="fb-root"></div><script></script-->
     <iframe id="sidebar"></iframe>
     <header>
-      <h1 class="logo" onclick="document.location.href='/';"><p style="margin : 10px 0px 15px 80px;"><a href="/"><img src="/res/signature-2-2.gif" width="200px" height="50" alt="Signature"></a></p></h1>
+      <h1 class="logo"  onclick="document.location.href='/';"><p style="margin : 10px 0px 15px 80px;"><a href="/"><img src="/res/signature-2-2.gif" width="200px" height="50" alt="Signature"></a></p></h1>
       <ul class="navigation">
-        <li><a href="/" class="active" title="A selection of recent photography">格子</a></li>
+        <li><a href="www.jufu.tk" {% if page.url contains "/jufu/" %}class="active"{% endif %}  title="A selection of recent photography">视图</a></li>
         <li><a href="/projects/"{% if page.url contains "/projects/" %}class="active"{% endif %} title="Projects I am or was involved in">项目</a></li>
         <li><a href="/archive/"{% if page.url contains "/archive/" %}class="active"{% endif %} title="Archived articles">文章</a></li>
         <li><a href="/about/"{% if page.url contains "/about/" %}class="active"{% endif %}>关于我</a></li>
