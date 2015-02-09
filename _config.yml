@@ -1,0 +1,9 @@
+highlighter: pygments
+lsi: false
+encoding: UTF-8
+# paginate: 50
+markdown: rdiscount
+# enables SmartyPants (nice curly quotation marks, em/en dashes, elipses, etc):
+rdiscount:
+  extensions: [smart]
+safe: false
