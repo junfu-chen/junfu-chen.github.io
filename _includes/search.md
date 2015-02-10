@@ -1,4 +1,7 @@
-
+---
+layout: page
+permalink: /search/
+---
 <script src="/assets/js/lunr.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="/assets/js/mustache.js" type="text/javascript" charset="utf-8"></script>
 	<script src="/assets/js/date.format.js" type="text/javascript" charset="utf-8"></script>
