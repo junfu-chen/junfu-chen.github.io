@@ -1,5 +1,4 @@
 highlighter: pygments
-lsi: false
 encoding: UTF-8
 # paginate: 50
 markdown: rdiscount
@@ -10,4 +9,3 @@ safe: false
 gems: ['jekyll-lunr-js-search']
 lunr_search:
   excludes: [atom.xml]
-  exclude_from_search: true
