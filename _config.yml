@@ -7,5 +7,5 @@ rdiscount:
   extensions: [smart]
 safe: false
 gems: ['jekyll-lunr-js-search']
-lunr_search:
+lunr_search:true
   excludes: [atom.xml]
