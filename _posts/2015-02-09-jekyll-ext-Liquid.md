@@ -4,7 +4,7 @@ tumblr_id: 1121203094
 disqus_comments: true
 date: 2015-02-26 10:00:00 UTC+8
 title: Jekyll 扩展的 Liquid 设计  
-categories: code
+menu: 编程
 ---
 Jekyll 扩展的 Liquid 设计 2013.11.04
 原文地址：https://github.com/shopify/liquid/wiki/liquid-for-designers
@@ -12,8 +12,11 @@ Jekyll 扩展的 Liquid 设计 2013.11.04
 
 Output 标记（有些可能解析文本）被包含在：
   {{ 两个配对的花括号中 }}
+  
+  
 Tag 标记（不能解析文本）被包含在:
-  {% 成对的花括号和百分号中 %}
+  /\{\%/成对的花括号和百分号中 /\%\}/
+  
 Output
 下面是关于输出标记的简单实例：
 

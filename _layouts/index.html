@@ -16,12 +16,11 @@
         <a href="/index.html" id="ref"></a>
 
         <ul id="tags__ul">
-          <li id="js-label1" class="tags__li tags-btn active">所有资料</li>
-          <li id="js-label2" class="tags__li tags-btn">生活</li>
-          <li id="js-label3" class="tags__li tags-btn">编程</li>
-          <li id="js-label4" class="tags__li tags-btn">数据库</li>
-          <li id="js-label5" class="tags__li tags-btn">项目</li>
-          <li id="js-label6" class="tags__li tags-btn">关于我</li>
+          <li id="pl__all" class="tags__li tags-btn active">所有资料</li>
+          <li id="生活" class="tags__li tags-btn">生活</li>
+          <li id="编程" class="tags__li tags-btn">编程</li>
+          <li id="数据库" class="tags__li tags-btn">数据库</li>
+          <li id="项目" class="tags__li tags-btn">项目</li>
         </ul>
 
         <div id="tags__bottom">
@@ -39,7 +38,7 @@
 
         <nav id="pl__container">
         {% for post in site.posts %}
-          <a class="{{ post.categories }} pl__all" href="{{ post.url }}"><span class="pl__circle"></span><span class="pl__title">{{ post.title }}</span><span class="pl__date">{{ post.date | date: "%b %Y" }}</span></a>
+          <a class="{{ post.menu }} pl__all" href="{{ post.url }}"><span class="pl__circle"></span><span class="pl__title">{{ post.title }}</span><span class="pl__date">{{ post.date | date: "%b %Y" }}</span></a>
         {% endfor %}
         </nav>
       </div> <!-- end #posts-list -->

@@ -10,7 +10,6 @@ if ($(window).width() <= 1280) {
   $('#sidebar').addClass('mobile')
 }
 
-
 // Variables
 var sidebar    = $('#sidebar'),
     container  = $('#post'),
@@ -27,7 +26,7 @@ var clickHandler = function(id) {
 };
 
 $('#tags__ul li').each(function(index){
-  $('#' + $(this).attr('id')).on('click', clickHandler($(this).text()));
+  $('#' + $(this).attr('id')).on('click', clickHandler($(this).attr('id')));
 });
 
 // If sidebar has class 'mobile', hide it after clicking.
