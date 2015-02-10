@@ -13,7 +13,7 @@
   <body>
     <aside id="sidebar">
       <nav id="tags">
-        <a href="/index.html" id="ref"></a>
+        <a href="/" id="ref"></a>
 
         <ul id="tags__ul">
           <li id="pl__all" class="tags__li tags-btn active">所有资料</li>
@@ -35,19 +35,9 @@
 <!--           NOTE: input field is disabled by default -->
 <!--           <input id="search-input" type="text" placeholder="Search..." disabled > -->
 <!--         </form> -->
-		<div><script>
-  (function() {
-    var cx = '014777530740884452561:owuvzmvqc0g';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-        '//www.google.com/cse/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search></div>
+<div>
+/search/
+</div>
         <nav id="pl__container">
         {% for post in site.posts %}
           <a class="{{ post.menu }} pl__all" href="{{ post.url }}"><span class="pl__circle"></span><span class="pl__title">{{ post.title }}</span><span class="pl__date">{{ post.date | date: "%b %Y" }}</span></a>
@@ -75,5 +65,6 @@
     <script src="/assets/js/jquery.pjax.js"></script>
     <script src="/assets/js/nprogress.js"></script>
     <script src="/assets/js/script.js"></script>
+	
   </body>
 </html>
