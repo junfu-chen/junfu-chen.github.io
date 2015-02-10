@@ -2,7 +2,7 @@
 layout: post
 tumblr_id: 1121203094
 disqus_comments: true
-date: 2015-02-26 10:00:00 UTC+8
+date: 2015-02-06 10:00:00 UTC+8
 title: 模的概念
 menu: 编程
 ---
