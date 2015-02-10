@@ -35,8 +35,10 @@
 <!--           NOTE: input field is disabled by default -->
 <!--           <input id="search-input" type="text" placeholder="Search..." disabled > -->
 <!--         </form> -->
-<div>
-{% include search.html %}
+<div id="search">
+  <form action="/search" method="get">
+    <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off">
+  </form>
 </div>
         <nav id="pl__container">
         {% for post in site.posts %}
@@ -65,5 +67,10 @@
     <script src="/assets/js/jquery.pjax.js"></script>
     <script src="/assets/js/nprogress.js"></script>
     <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/lunr.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/assets/js/mustache.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/assets/js/date.format.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/assets/js/URI.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/assets/js/jquery.lunr.search.js" type="text/javascript" charset="utf-8"></script>
 	 </body>
 </html>
