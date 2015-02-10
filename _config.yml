@@ -1,11 +1,11 @@
-highlighter: pygments
+--- 
 encoding: UTF-8
-# paginate: 50
-markdown: rdiscount
-# enables SmartyPants (nice curly quotation marks, em/en dashes, elipses, etc):
-rdiscount:
-  extensions: [smart]
-safe: false
-gems: ['jekyll-lunr-js-search']
+gems: 
+  - jekyll-lunr-js-search
+highlighter: pygments
 lunr_search: true
-  excludes: [atom.xml]
+markdown: rdiscount
+rdiscount: 
+  extensions: 
+    - smart
+safe: false
