@@ -3,7 +3,8 @@ encoding: UTF-8
 gems: 
   - jekyll-lunr-js-search
 highlighter: pygments
-lunr_search: true
+lunr_search:
+  excludes: [atom.xml]
 markdown: rdiscount
 rdiscount: 
   extensions: 
