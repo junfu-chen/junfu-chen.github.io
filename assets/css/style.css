@@ -263,8 +263,7 @@ a {
   -moz-appearance: none;
   -ms-appearance: none;
   -o-appearance: none;
-  appearance: none;
-  cursor: not-allowed; }
+  appearance: none;}
   #st-search-input::-webkit-input-placeholder {
     color: #cbcbcb;
     font-style: italic; }
