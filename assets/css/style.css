@@ -248,7 +248,7 @@ a {
       display: block;
       float: left; } }
 
-#search-input {
+#st-search-input {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -265,17 +265,17 @@ a {
   -o-appearance: none;
   appearance: none;
   cursor: not-allowed; }
-  #search-input::-webkit-input-placeholder {
+  #st-search-input::-webkit-input-placeholder {
     color: #cbcbcb;
     font-style: italic; }
-  #search-input::-moz-placeholder {
+  #st-search-input::-moz-placeholder {
     color: #cbcbcb;
     font-style: italic; }
-  #search-input:-ms-input-placeholder {
+  #st-search-input:-ms-input-placeholder {
     color: #cbcbcb;
     font-style: italic; }
   @media screen and (max-width: 585px) {
-    #search-input {
+    #st-search-input {
       padding: 10px 10px 0;
       -webkit-flex: 1;
       flex: 1; } }
