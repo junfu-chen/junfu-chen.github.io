@@ -6,6 +6,7 @@ date: 2015-02-10 10:00:00 UTC+8
 title: java 时区列表
 menu: 编程
 ---
+{% highlight java%}     
 Etc/GMT+12
 Etc/GMT+11
 MIT
@@ -605,3 +606,4 @@ Etc/GMT-14
 Pacific/Kiritimati
 共支持597个时区ID：
 TimeZone.getDefault().getID()=Asia/Shanghai
+{% endhighlight%}
